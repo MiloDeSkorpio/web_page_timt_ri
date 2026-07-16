@@ -1,0 +1,191 @@
+[
+  {
+    "id": "c1",
+    "slug": "metodos-de-pago-y-acceso",
+    "title": "Métodos de Pago y Acceso",
+    "description": "Información sobre cómo acceder a las estaciones y métodos de pago.",
+    "icon": "CreditCard",
+    "articles": [
+      {
+        "id": "a1-1",
+        "slug": "medios-de-pago",
+        "title": "¿Qué medios puedo usar para pagar mi viaje?",
+        "content": "Se puede ingresar utilizando la Tarjeta Única de Movilidad Integrada (TUMI) o un código QR adquirido en las máquinas de las estaciones."
+      },
+      {
+        "id": "a1-2",
+        "slug": "pagar-pasaje-otra-persona",
+        "title": "¿Puedo pagar el pasaje de otra persona con mi tarjeta?",
+        "content": "No, tanto la TUMI como el código QR son personales e intransferibles; solo son válidos para un viaje por persona. Además, la TUMI y su saldo son responsabilidad exclusiva de la persona usuaria; en caso de robo o extravío, el TIMT no realiza reposiciones, devoluciones ni reembolsos."
+      },
+      {
+        "id": "a1-3",
+        "slug": "perder-codigo-qr",
+        "title": "¿Qué hago si pierdo mi código QR durante el trayecto?",
+        "content": "Es obligatorio conservarlo en buenas condiciones, ya que se requiere para registrar la salida. En caso de pérdida, se aplica una sanción de $100.00 MXN."
+      }
+    ]
+  },
+  {
+    "id": "c2",
+    "slug": "tarifas-y-beneficios",
+    "title": "Tarifas y Beneficios",
+    "description": "Información sobre el costo del viaje y beneficios aplicables.",
+    "icon": "Banknote",
+    "articles": [
+      {
+        "id": "a2-1",
+        "slug": "calculo-costo-viaje",
+        "title": "¿Cómo se calcula el costo del viaje?",
+        "content": "La tarifa se cobra conforme a la distancia recorrida. Para usuarios con código QR, se debe indicar la estación de destino al momento de la compra en las Máquinas de Venta y Recarga o en los Módulos de Atención al Usuario para realizar el pago correspondiente."
+      },
+      {
+        "id": "a2-2",
+        "slug": "descuentos",
+        "title": "¿Existen descuentos para estudiantes o adultos mayores?",
+        "content": "Bajo el esquema tarifario actual, no existen tarifas preferenciales, descuentos ni exenciones."
+      },
+      {
+        "id": "a2-3",
+        "slug": "ninos-pagan-pasaje",
+        "title": "¿Los niños pagan pasaje?",
+        "content": "Los menores de edad que midan menos de 115 centímetros de estatura están exentos de pago."
+      }
+    ]
+  },
+  {
+    "id": "c3",
+    "slug": "horarios-de-servicio",
+    "title": "Horarios de Servicio",
+    "description": "Días y horarios de operación del tren.",
+    "icon": "Clock",
+    "articles": [
+      {
+        "id": "a3-1",
+        "slug": "horarios-operacion",
+        "title": "Horarios de Operación",
+        "content": "<ul><li><strong>Lunes a Viernes:</strong> 05:00 a 24:00 horas</li><li><strong>Sábados:</strong> 06:00 a 24:00 horas</li><li><strong>Domingos y Días Festivos:</strong> 07:00 a 24:00 horas</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": "c4",
+    "slug": "uso-instalaciones-y-seguridad",
+    "title": "Uso de las Instalaciones y Seguridad",
+    "description": "Normas de seguridad y comportamiento dentro de las instalaciones.",
+    "icon": "ShieldAlert",
+    "articles": [
+      {
+        "id": "a4-1",
+        "slug": "quien-cumple-normas",
+        "title": "¿Quién debe cumplir con estas normas?",
+        "content": "Las Reglas de Aplicación son de observancia general y obligatoria para todas las personas que utilicen las instalaciones, equipos y trenes del TIMT."
+      },
+      {
+        "id": "a4-2",
+        "slug": "medidas-seguridad-anden",
+        "title": "¿Qué medidas de seguridad debo seguir en el andén?",
+        "content": "No se debe rebasar la línea amarilla de seguridad, excepto para abordar o descender, y está prohibido correr o empujar."
+      },
+      {
+        "id": "a4-3",
+        "slug": "menores-viajar-solos",
+        "title": "¿Los menores pueden viajar solos?",
+        "content": "Solo los menores de 12 años en adelante pueden viajar solos; los niños menores de esa edad deben ir acompañados por un adulto."
+      },
+      {
+        "id": "a4-4",
+        "slug": "seguro-accidente",
+        "title": "¿Existe algún seguro en caso de accidente?",
+        "content": "Sí, las personas usuarias que hayan pagado su tarifa cuentan con un seguro de viajero que cubre atención médica y muerte accidental."
+      }
+    ]
+  },
+  {
+    "id": "c5",
+    "slug": "accesibilidad-e-inclusion",
+    "title": "Accesibilidad e Inclusión",
+    "description": "Facilidades para personas con discapacidad y movilidad reducida.",
+    "icon": "HandHelping",
+    "articles": [
+      {
+        "id": "a5-1",
+        "slug": "facilidades-discapacidad-motriz",
+        "title": "¿Qué facilidades hay para personas con discapacidad motriz?",
+        "content": "Los trenes cuentan con espacios destinados para sillas de ruedas. Se recomienda aplicar el freno y usar el botón de aviso de descenso ubicado a 50 cm del piso para alertar al conductor."
+      },
+      {
+        "id": "a5-2",
+        "slug": "viajar-con-perro-guia",
+        "title": "¿Puedo viajar con un perro guía?",
+        "content": "Sí, las personas con discapacidad visual pueden transportarse acompañadas de un perro de servicio."
+      },
+      {
+        "id": "a5-3",
+        "slug": "prioridad-asientos-elevadores",
+        "title": "¿Quién tiene prioridad en los asientos reservados y elevadores?",
+        "content": "Personas con discapacidad, movilidad reducida, adultos mayores y mujeres embarazadas."
+      }
+    ]
+  },
+  {
+    "id": "c6",
+    "slug": "prohibiciones-importantes",
+    "title": "Prohibiciones Importantes",
+    "description": "Conoce lo que no está permitido dentro del servicio.",
+    "icon": "Ban",
+    "articles": [
+      {
+        "id": "a6-1",
+        "slug": "entrar-con-mascotas",
+        "title": "¿Puedo entrar con mascotas?",
+        "content": "Solo si viajan en una transportadora cerrada y rígida que no exceda los 80x60x30 cm, a menos que sean animales de servicio o apoyo emocional con la documentación médica correspondiente."
+      },
+      {
+        "id": "a6-2",
+        "slug": "ingreso-bicicletas-scooters",
+        "title": "¿Se permite el ingreso de bicicletas o scooters?",
+        "content": "Solo si están debidamente resguardados y no exceden las dimensiones de 80x60x30 cm."
+      },
+      {
+        "id": "a6-3",
+        "slug": "comer-fumar-tren",
+        "title": "¿Puedo comer o fumar dentro del tren?",
+        "content": "Está estrictamente prohibido el consumo de alimentos, bebidas, así como fumar o usar cigarros electrónicos y vapeadores en estaciones y trenes."
+      }
+    ]
+  },
+  {
+    "id": "c7",
+    "slug": "incidentes-y-sanciones",
+    "title": "Incidentes y Sanciones",
+    "description": "Qué hacer en emergencias y cuáles son las sanciones por incumplimiento.",
+    "icon": "AlertTriangle",
+    "articles": [
+      {
+        "id": "a7-1",
+        "slug": "olvidar-registrar-salida",
+        "title": "¿Qué pasa si olvido registrar mi salida con la TUMI?",
+        "content": "Se aplicará una sanción automática de $100.00 MXN en la siguiente operación."
+      },
+      {
+        "id": "a7-2",
+        "slug": "servicio-interrumpido",
+        "title": "¿Qué sucede si el servicio se interrumpe por fallas del tren?",
+        "content": "No habrá reembolso de la tarifa, pero se otorgará un boleto de cortesía para un viaje posterior."
+      },
+      {
+        "id": "a7-3",
+        "slug": "contingencia-evacuacion",
+        "title": "¿Qué debo hacer durante una contingencia o evacuación?",
+        "content": "Ante cualquier interrupción del servicio o contingencia, las personas usuarias deben seguir estrictamente las indicaciones del personal del TIMT y los protocolos de Protección Civil para garantizar su seguridad y una evacuación ordenada."
+      },
+      {
+        "id": "a7-4",
+        "slug": "objeto-a-las-vias",
+        "title": "¿Qué debo hacer si se me cae un objeto a las vías?",
+        "content": "Debe informar inmediatamente al personal del TIMT. Está prohibido intentar recuperarlo por cuenta propia debido al riesgo de alta tensión en la catenaria."
+      }
+    ]
+  }
+]

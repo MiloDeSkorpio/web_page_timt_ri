@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Dónde adquirirla",
+    "description":
+      "Adquiere tu tarjeta a través de las Maquinas expendedoras. Considera que es una tarjeta por persona.",
+    "image": "maet_obs_t.jpg"
+  },
+    {
+    "id": 2,
+    "title": "Recarga en Estaciones",
+    "description":
+      "Contamos con multiples maquinas de autorecarga en todas nuestras estaciones.",
+    "image": "2_recs.jpg"
+  },
+      {
+    "id": 3,
+    "title": "RRE",
+    "description":
+      "Si tu celular cuenta con NFC puedes recargar mediante AppCDMX o MercadoPago. Tambien puedes recargar en algun comercio que cuente con terminal de MercadoPago.",
+    "image": "rre.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Cómo usarla en la entrada",
+    "description":
+      "Al llegar a los torniquetes de entrada, evita obstruir los sensores y  coloca tu tarjeta sobre el lector iluminado. Espera la luz verde y cruza.",
+    "image": "valida-in.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Cómo usarlos en la salida",
+    "description":
+      "Al salir en la estación de destino, deberás presentar nuevamente la tarjeta para liberar el torniquete.",
+    "image": "valida-in.jpg"
+  }
+]

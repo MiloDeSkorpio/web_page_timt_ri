@@ -1,0 +1,56 @@
+[
+  {
+    "id": "zinacantepec",
+    "name": "Zinacantepec",
+    "status": "active",
+    "accessType": "Estacionamiento",
+    "accessSecond":"Centro de Transferencia(próximamente)",
+    "coordinates": "https://www.google.com/maps/place/Zinacantepec/@19.2800658,-99.6966841,17z/data=!4m14!1m7!3m6!1s0x85cd892bbc7cdff9:0xc4b765c17686e8ed!2sEstaci%C3%B3n+ZINACANTEPEC%E2%80%94Tren+Interurbano+M%C3%A9xico-Toluca%E2%80%94TIMT!8m2!3d19.2800608!4d-99.6941092!16s%2Fg%2F11krkf934_!3m5!1s0x85cd884403ee78b1:0x958f2cfd7da31b50!8m2!3d19.2802001!4d-99.6949878!16s%2Fg%2F11h02dz26y?entry=ttu&g_ep=EgoyMDI2MDYyOC4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "toluca_centro",
+    "name": "Toluca Centro",
+    "status": "active",
+    "accessType": "Bahías de ascenso y descenso",
+    "coordinates": "https://www.google.com/maps/place/Toluca+Centro/@19.2701298,-99.6481716,17z/data=!4m12!1m5!3m4!2zMTnCsDE2JzEyLjUiTiA5OcKwMzgnNDQuMiJX!8m2!3d19.2701298!4d-99.6455967!3m5!1s0x85cd89839517bd5b:0xcff34821b6d0645f!8m2!3d19.2703824!4d-99.641346!16s%2Fg%2F11wc3q9n_1?entry=ttu&g_ep=EgoyMDI2MDYyOC4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "metepec",
+    "name": "Metepec",
+    "status": "active",
+    "accessType": "Estacionamiento",
+    "accessSecond": "Centro de Transferencia(próximamente)",
+    "coordinates": "https://www.google.com/maps/place/Metepec/@19.2774504,-99.5776856,17z/data=!4m14!1m7!3m6!1s0x85cd8b97f02d4d61:0x57b0cd1add5a2e61!2sEstaci%C3%B3n+METEPEC%E2%80%94Tren+Interurbano+M%C3%A9xico-Toluca%E2%80%94TIMT!8m2!3d19.2774454!4d-99.5751107!16s%2Fg%2F11l2hkt_62!3m5!1s0x85cd8ae42f974457:0x9abf471e74eeaa1f!8m2!3d19.27757!4d-99.57348!16s%2Fg%2F11fjx8bmcl?entry=ttu&g_ep=EgoyMDI2MDYyOC4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "lerma",
+    "name": "Lerma",
+    "status": "active",
+    "accessType": "Bahías de ascenso y descenso",
+    "coordinates": "https://www.google.com/maps/place/Tren+Interurbano+Estaci%C3%B3n+Lerma/@19.278755,-99.5173434,17z/data=!4m10!1m2!2m1!1sestacion+Lerma!3m6!1s0x85cdf50a0af598b7:0x247d239d330dbe81!8m2!3d19.2786155!4d-99.514537!15sCg5lc3RhY2lvbiBMZXJtYZIBGm1ldHJvcG9saXRhbl90cmFpbl9jb21wYW554AEA!16s%2Fg%2F11krbhfyf4?entry=ttu&g_ep=EgoyMDI2MDYyOC4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "santa_fe",
+    "name": "Santa Fe",
+    "status": "active",
+    "accessType": "Bahías de ascenso y descenso",
+    "accessSecond": "Centro de Transferencia",
+    "coordinates": "https://www.google.com/maps/place/Tren+Interurbano/@19.3628352,-99.2735109,17z/data=!4m14!1m7!3m6!1s0x85d201ecb85a5b0b:0x31e16997ba5e9980!2sEstaci%C3%B3n+Santa+Fe+%E2%80%94+Tren+Interurbano+M%C3%A9xico-Toluca!8m2!3d19.3628302!4d-99.2688975!16s%2Fg%2F11tt5dsbn_!3m5!1s0x85d2010025851d03:0xb638ca34681a67aa!8m2!3d19.3639646!4d-99.2685992!16s%2Fg%2F11x2kqqtfv?entry=ttu&g_ep=EgoyMDI2MDYyOC4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "vasco_quiroga",
+    "name": "Vasco de Quiroga",
+    "status": "active",
+    "accessType": "Sin bahía de ascenso y descenso",
+    "accessSecond": "Unicamente acceso peatonal",
+    "coordinates": "https://www.google.com/maps/place/Estaci%C3%B3n+VASCO+DE+QUIROGA%E2%80%94Tren+Interurbano+M%C3%A9xico-Toluca/@19.3850212,-99.2394081,17z/data=!3m1!4b1!4m6!3m5!1s0x85d201c75c57604d:0x5f5ab779abd38809!8m2!3d19.3850162!4d-99.2368332!16s%2Fg%2F11nxc81my8?entry=ttu&g_ep=EgoyMDI2MDYyOC4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "observatorio",
+    "name": "Observatorio",
+    "status": "active",
+    "accessType": "Estacionamiento",
+    "accessSecond": "Centro de Transferencia (próximamente)",
+    "coordinates": "https://www.google.com/maps/place/Estaci%C3%B3n+Observatorio+%E2%80%93+Tren+Interurbano/@19.3984513,-99.2037146,16z/data=!3m1!4b1!4m6!3m5!1s0x85d2010041c61103:0xf6d21ccaa9991a11!8m2!3d19.3984463!4d-99.2011397!16s%2Fg%2F11n3ms2k67?entry=ttu&g_ep=EgoyMDI2MDYyOC4wIKXMDSoASAFQAw%3D%3D"
+  }
+]

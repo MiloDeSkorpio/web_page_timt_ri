@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "title": "Posicionamiento - Entrada/Salida",
+    "description":
+      "Antes de realizar tu entrada, busca posicionarte en las huellas ubicadas antes de la entrada/salida en los torniquetes. Esto evitara errores en lso cobros.",
+    "image": "pos_pies.jpg"
+  },
+    {
+    "id": 2,
+    "title": "Equipaje",
+    "description":
+      "Recuerda viajar con equipaje que no excedan las dimensiones de 80 x 60 x 30 cm.",
+    "image": "bultos.png"
+  },
+      {
+    "id": 3,
+    "title": "Mascotas",
+    "description":
+      "Sólo se podrá transportar animales si éstos están en una transportadora cerrada y rígida, respetando las dimensiones máximas: 80 x 60 x 30 cm.",
+    "image": "masc_tra.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Mascotas de Servicio o de apoyo emocional",
+    "description":
+      "deberán portar el distintivo correspondiente (arnés, collar o etiquetas), así como contar con la prescripción médica expedida por un profesional de la salud con cédula profesional que justifique el acompañamiento con dichos animales.",
+    "image": "mas_emo.jpg"
+  }
+
+]

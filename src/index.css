@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-timt-primary: #81312f;
+  --color-timt-primary-hover: #6c2827;
+  
+  --color-timt-secondary: #DCC9A5;
+  --color-timt-secondary-dark: #D4C19D;
+  
+  --color-timt-text: #504e4c; 
+  
+  --color-timt-bg: #eeeae3;
+  --color-timt-bg-light: #f5eded;
+  
+  --color-brand-facebook: #1877F2;
+  --color-brand-whatsapp: #25D366;
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+.animate-slide-in {
+  animation: slideInLeft 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #111827;
+    color: #f9fafb;
+  }
+}

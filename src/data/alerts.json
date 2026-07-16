@@ -1,0 +1,9 @@
+[
+  {
+    "id": "alert1",
+    "type": "info",
+    "title": "Horario del Servicio",
+    "message": "Lunes a viernes, de 05:00 a 00:00 horas; los sábados, de 06:00 a 00:00 horas; y los domingos y días festivos, de 07:00 a 00:00 horas.",
+    "active": true
+  }
+]

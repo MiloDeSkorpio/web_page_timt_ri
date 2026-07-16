@@ -1,0 +1,85 @@
+name: Security and Quality Pipeline
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+  schedule:
+    - cron: '0 0 1 * *' # Ejecutar el día 1 de cada mes a las 00:00 UTC
+  workflow_dispatch:
+    inputs:
+      target_url:
+        description: 'URL del servidor para DAST (OWASP ZAP)'
+        required: true
+        default: 'http://localhost:8080'
+
+jobs:
+  quality_and_sast:
+    name: Code Quality and SAST (SonarQube)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          # Shallow clones should be disabled for a better relevancy of analysis
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run npm audit (SAST dependencies)
+        run: npm run security-check
+
+      - name: SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@v2.3.0
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+
+      - name: SonarQube Quality Gate check
+        uses: SonarSource/sonarqube-quality-gate-action@v1.1.0
+        # Force to fail step after specific time.
+        timeout-minutes: 5
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
+  build_and_dast:
+    name: Build and DAST (OWASP ZAP)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build Docker Image
+        run: docker build -t refactor_timt_app:latest .
+
+      - name: Run Docker Container
+        run: |
+          docker run -d -p 8080:8080 --name test-app refactor_timt_app:latest
+          # Wait for the service to be up
+          sleep 10
+          curl -s --retry 10 --retry-delay 3 --retry-all-errors http://localhost:8080 > /dev/null
+
+      - name: OWASP ZAP Baseline Scan
+        uses: zaproxy/action-baseline@v0.12.0
+        with:
+          target: ${{ github.event.inputs.target_url || secrets.DAST_TARGET_URL || 'http://localhost:8080' }}
+          fail_action: true
+          rules_file_name: '.zap/rules.tsv' # Optional: You can create this file later to ignore specific alerts
+
+      - name: Upload ZAP Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZAP-DAST-Report
+          path: zap_out/

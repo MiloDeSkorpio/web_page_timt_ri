@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Dónde adquirirlos",
+    "description":
+      "Adquiere tus boletos con código QR en las taquillas de las estaciones o a través de las Maquinas expendedoras.",
+    "image": "mar_obs.jpg"
+  },
+    {
+    "id": 2,
+    "title": "Verifica tu Origen - Destino en Taquilla",
+    "description":
+      "Si adquieres tu boleto en taquilla verifica que tu boleto marque tu Origen - Destino correctamente para evitar penalizaciones.",
+    "image": "qr_taq.jpg"
+  },
+      {
+    "id": 3,
+    "title": "Verifica tu Origen - Destino en Maquina",
+    "description":
+      "Es importante que al adquirir un boleto mediante la maquina expendedora marques correctamente tu Origen - Destino para evitar penalizaciones.",
+    "image": "qr_maq.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Cómo usarlos en la entrada",
+    "description":
+      "Al llegar a los torniquetes de entrada, evita obstruir los sensores y  coloca tu boleto QR sobre el lector iluminado. Espera la luz verde y cruza.",
+    "image": "qr_check.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Cómo usarlos en la salida",
+    "description":
+      "Conserva tu boleto durante todo el viaje. Al salir de la estación de destino, deberás escanear nuevamente el código QR para liberar el torniquete.",
+    "image": "qr_check.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Penalizaciones",
+    "description":
+      "Si has perdido tu boleto QR o tu destino no era el correcto, la penalización tiene un costo de $100.00 MXN. Esto acorde al reglamento.",
+    "image": "qr_ticket_exit.png"
+  }
+]
