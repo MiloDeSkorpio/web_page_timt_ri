@@ -44,6 +44,7 @@ jobs:
         with:
           target: "http://localhost:8080"
           fail_action: true
+          cmd_options: "-I"
 
   # -------------------------------------------
   # PASO 3: EMPAQUETADO Y PUBLICACIÓN
