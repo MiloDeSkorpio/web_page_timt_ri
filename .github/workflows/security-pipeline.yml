@@ -77,7 +77,8 @@ jobs:
         with:
           target: ${{ github.event.inputs.target_url || secrets.DAST_TARGET_URL || 'http://localhost:8080' }}
           fail_action: true
-          rules_file_name: ".zap/rules.tsv" # Optional: You can create this file later to ignore specific alerts
+          rules_file_name: ".zap/rules.tsv"
+          artifact_name: "zap-scan"
 
       - name: Upload ZAP Report
         if: always()
