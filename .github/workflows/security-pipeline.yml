@@ -73,7 +73,7 @@ jobs:
           curl -s --retry 10 --retry-delay 3 --retry-all-errors http://localhost:8080 > /dev/null
 
       - name: OWASP ZAP Baseline Scan
-        uses: zaproxy/action-baseline@v0.12.0
+        uses: zaproxy/action-baseline@master
         with:
           target: ${{ github.event.inputs.target_url || secrets.DAST_TARGET_URL || 'http://localhost:8080' }}
           fail_action: true
