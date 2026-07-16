@@ -47,7 +47,7 @@ jobs:
           target: "http://localhost:8080"
           fail_action: true
           cmd_options: "-I"
-
+          allow_issue_writing: false
   # -------------------------------------------
   # PASO 3: EMPAQUETADO, PUBLICACIÓN Y SBOM
   # -------------------------------------------
