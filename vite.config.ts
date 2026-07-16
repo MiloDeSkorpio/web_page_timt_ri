@@ -9,6 +9,10 @@ export default defineConfig({
   server: {
     allowedHosts: ['.ngrok-free.app']
   },
+  esbuild: {
+    // @ts-expect-error - Vite's ESBuildOptions type does not include legalComments, but it is passed to esbuild during build
+    legalComments: 'none'
+  },
   build: {
     rollupOptions: {
       output: {
