@@ -53,10 +53,38 @@ jobs:
     name: Build and Push Final Docker Image
     needs: build_and_test_dast
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      # Aquí van los pasos para construir la imagen final
+      - name: Log in to GitHub Container Registry (GHCR)
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build and Push
-        run: echo "El código es 100% seguro. Subiendo imagen final a producción..."
+      - name: Convert repository owner to lowercase
+
+        run: |
+          echo "REPO_OWNER=$(echo ${{ github.repository_owner }} | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
+
+      - name: Build, Tag and Push Docker Image
+        run: |
+          IMAGE_NAME=ghcr.io/$REPO_OWNER/refactor_timt_app
+
+          echo "1. Construyendo la imagen segura..."
+          docker build -t $IMAGE_NAME:latest .
+
+          echo "2. Etiquetando con el hash exacto del commit..."
+          docker tag $IMAGE_NAME:latest $IMAGE_NAME:${{ github.sha }}
+
+          echo "3. Subiendo etiquetas a GitHub Container Registry..."
+          docker push $IMAGE_NAME:latest
+          docker push $IMAGE_NAME:${{ github.sha }}
+
+          echo "✅ ¡Imagen final subida exitosamente a producción!"
