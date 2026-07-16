@@ -3,7 +3,10 @@ name: Security and Quality Pipeline
 on:
   push:
     branches: ["main"]
-
+permissions:
+  issues: write
+  pull-requests: write
+  contents: read
 jobs:
   # -------------------------------------------
   # PASO 1: SAST (Análisis Estático)
