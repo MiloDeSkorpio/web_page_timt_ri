@@ -17,7 +17,9 @@ on:
         description: "URL del servidor para DAST (OWASP ZAP)"
         required: true
         default: "http://localhost:8080"
-
+permissions:
+  issues: write
+  pull-requests: write
 jobs:
   quality_and_sast:
     name: Code Quality and SAST (SonarQube)
